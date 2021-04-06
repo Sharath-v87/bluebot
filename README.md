@@ -1,2 +1,2 @@
-# robot-controlled-using-bluetooth-module
-# robot-controlled-using-bluetooth
+#BLUEBOT
+robot that can be controlled using bluetooth module
