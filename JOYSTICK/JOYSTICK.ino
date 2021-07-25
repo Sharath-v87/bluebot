@@ -21,12 +21,13 @@ void loop() {
 if(Serial.available() > 0)
  {
   Incoming_value = Serial.read();
-  if(Incoming_value == 'W')  
+  if(Incoming_value == 'move forward' || Incoming_value == 'Move forward')  
    { 
     digitalWrite(LM1, HIGH);
     digitalWrite(LM2, LOW);
     digitalWrite(RM1, HIGH);
     digitalWrite(RM2, LOW);
+    Serial.println("recieved");
    } 
   else if(Incoming_value == 'S')
   {
